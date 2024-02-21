@@ -1,0 +1,81 @@
+.project {
+	background-color: lightblue;
+	width: 25%;
+	border-radius: 18px;
+	min-width: 200px;
+	margin: 10px;
+
+}
+.project-wrapper {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+body {
+	margin: 0;
+	text-align: center;
+	font-family: sans-serif;
+	background-color: antiquewhite;
+}
+.landing-page {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: lightblue;
+	height: 50vh;
+}
+h1 {
+	font-size: 48px;
+}
+h2 {
+	font: italic  bold 14px Georgia, serif;
+}
+#days {
+	font-size: 36px;
+}
+.emphasis {
+	color: antiquewhite;
+	font-style: normal;
+}
+.gray {
+	color: gray;
+}
+nav button {
+	float: right;
+	margin: 5px;
+	background-color: lightblue;
+	border-radius: 10px;
+	border: none;
+}
+nav {
+	position: fixed;
+	width: 98%;
+	text-align: left;
+	margin: auto;
+	padding: 10px;
+	background-color: antiquewhite;
+}
+#skills {
+	background-color: lightblue;
+	padding: 30px;
+}
+table {
+	border: 3px black;
+	width: 75%;
+	margin: auto;
+	background-color: #ffffff99;
+}
+th {
+background-color: lightcyan;
+text-align: left;
+}
+
+thead th {
+background-color: lightblue;
+}
+td {
+	text-align: right;
+}
+section {
+	margin-bottom: 50px;
+}
