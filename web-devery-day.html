@@ -4,151 +4,142 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"/>
-		<link rel="stylesheet" href="web-devery-day.css">		
+		<link rel="stylesheet" href="web-devery-day.css">	
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    	
 		<title>Katya Greimes Web Dev</title>
 
 	</head>
-	<body>
-		<header class="container">
+	<body class="bg-dark text-light ">
+		<header class="container bg-success">
 			<div class="row">
 				<div class="col">
-					<nav>KATYA GREIMES: Web Developer <button>Contact</button><button>Story</button><button>Skills</button><button>Project</button></nav>
+					<nav>KATYA GREIMES: Web Developer 
+						<button class="btn btn-light">Contact</button>
+						<button class="btn btn-light">Story</button>
+						<button class="btn btn-light">Skills</button>
+						<button class="btn btn-light">Project</button>
+					</nav>
 				</div>
 			</div>
 		</header>
 		<main class="container">
 			<!--Hero-->
-			<section class="row">
-				<div class="">
+			<section class="row bg-success vh-100">
+				<div class="col-lg-6 m-5">
 					<h1>Katya Greimes</h1>
-					<h2>Creative Frontend Web Developer</h2>
+					<h2>Frontend Web Developer</h2>
 
 					<h3>Applying creative solutions to bring your project to life.</h3>
 				</div>
-				<button class="col m-4">Resume</button>
-				<button class="col m-4">GitHub</button>
-				<button class="col m-4">Volunteer Initiative</button>
-
-			</section class="row">
-				<div class="col border-top border-bottom border-primary">
-					<p>HTML CSS GIT Bootstrap</p>
+				<div class="text-center">
+					<button class="btn btn-light">Resume</button>
+					<button class="btn btn-light">GitHub</button>
 				</div>
-				<h3 class="col">Projects</h3>
-					<div class="col-4">
-						<h4>Calico App</h4>
-					</div>
-					<div class="col-4">
-						<h4>Calico App</h4>
-					</div>
-					<div class="col">
-						<h4>Calico App</h4>
-					</div>
+
+			</section>
+			<!--skills-->
+			<section class="row border-top border-bottom border-success mt-3">
+				<div class="col text-center m-3">
+                    
+                    <span class="fa-brands fa-git fa-xl"></span>
+                    <span class="fa-brands fa-react fa-xl"></span>
+                    <span class="fa-brands fa-bootstrap fa-xl"></span>
+                    <span class="fa-brands fa-js fa-xl"></span>
+                </div>
+			</section>
 			<!--Projects-->
-			<section>
-
-			</section class="row">
-				<div class="col">
-					<h3>Projects</h3>
+			<section class="row text-center mt-5">
+				<h3 class="">Favorite Projects</h3>
+				<div class="col-sm-4">
+					<div class="card mt-3">
+						<h4 class="card-header bg-success text-white">Calico App</h4>
+						<div class="card-body">
+							<p class="text-dark">Info on the project</p>
+							<button class="btn btn-success">View Demo</button>
+						</div>
+					</div>
 				</div>
+				<div class="col-sm-4">
+					<div class="card mt-3">
+						<h4 class="card-header bg-success text-white">Web Devery Day</h4>
+						<div class="card-body">
+							<p class="text-dark">Info on the project</p>
+							<button class="btn btn-success">View Demo</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="card mt-3">
+						<h4 class="card-header bg-success text-white">Git: Apocalypse</h4>
+						<div class="card-body">
+							<p class="text-dark">Info on the project</p>
+							<button class="btn btn-success">View Demo</button>
+						</div>
+					</div>
+
+				</div>
+
+			</section>
 			<!--Story-->
-			<section>
-
-			</section class="row">
+			<section class="row row-content mt-5">
 				<div class="col">
-					<h3>Projects</h3>
+					<h3>Swapping Pages for Pages</h3>
+					<h4>My journey from picture book artist to web developer:</h4>
+					<p class="text-left">Hi, I’m Katya, a picture book artist turned web developer. 
+					</p>
+
+					In 2018, a publisher told me that she loved my illustrations, but my portfolio website needed some work. Always willing to improve, I started spending my downtime learning the ins and outs of web design, HTML5, and CSS. Somewhere along the way, I realized that I was able to be far more creative working in the innovative atmosphere of the development community than I ever was allowed within the traditional confines of the children’s book industry. Finally, in 2023, I decided to officially make the switch. 
+					</p>
+					<p>	
+					Making a career change was scary, but it turned out to be a smaller transition than I thought it would be: 
+
+					</p>
 				</div>
-			<!--Learning Journey-->
-			<section></section>
+			</section >
+			<!--Comparison-->
+			<section class="row row-content">
+				<div>
+					<div>
+						<table class="table table-responsive table-striped text-light">
+							<thead >
+								<tr class="bg-success">
+									<th>Responsibilities</th>
+									<th>Illustrator</th>
+									<th>Developer</th>
+								</tr>
+							</thead>
+							<tbody class="table-dark">
+								<tr>
+									<th>Meet with client</th>
+									<td>Check</td>
+									<td>Check</td>
+								</tr>
+								<tr>
+									<th>Create a Mockup</th>
+									<td>Check</td>
+									<td>Check</td>
+								</tr>
+								<tr>
+									<th>Create a Multi-Page Masterpiece</th>
+									<td>Check</td>
+									<td>Check</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</section>
+				
+			<!--learning journey-->
+			<section class="row mt-5">
+				<div class="col">
+					<h3>Projects Journey</h3>
+					<p>(Coming soon...)</p>
+				</div>
+			</section >
+				
 		</main>
-
-
-
-
-
-	
-	<section class="landing-page">
-	<h1><span class="emphasis">Web D</span><span class="gray">ev</span>ery Day</h1>
-	<h2>My Journey From Picture Book Illustrator to <span class="emphasis">WEB DEVELOPER</span></h2>
-
-
-		<h3>Day <span class="emphasis" id="days">100</span> of learning code</h3>
-	</section>
-
-	<section id="projects">
-		<h3>Favorite Projects So Far:</h3>
-		<div class="project-wrapper">
-			<div class="project">
-				<h4>HTML Project</h4>
-				<p>A resume built with pure html</p>
-				<a>View</a>
-			</div>
-			<div class="project">
-				<h4>CSS Project</h4>
-				<p>A webpage built using vanilla CSS3</p>
-				<a>View</a>
-			</div>
-			<div class="project">
-				<h4>Bootstrap Project</h4>
-				<p>(Coming Soon)</p>
-				<a>View</a>
-			</div>
-		</div>
-	</section>
-
-	<section id="skills">
-	<h3>Currently in My Toolkit:</h3>
-		<div class="project-wrapper">
-			<div class="skills">
-				<h4>HTML5</h4>
-			</div>
-			<div class="skills">
-				<h4>CSS3</h4>
-			</div>
-			<div class="skills">
-				<h4>HTML5</h4>
-			</div>
-		</div>
-	</section>
-
-	<section id="story">
-		<h3>Why did I switch from illustration to Web Development?</h3>
-		<p>To be honest, it wasn't that far of a leap...</p>
-		
-		<table>
-			<thead>
-				<tr>
-					<th>Duties</th>
-					<th>Web Dev</th>
-					<th>Illustrator</th>
-				</tr>
-			</head>
-			<tbody>
-				<tr>
-					<th>Determine the needs of the client</th>
-					<td>Check</td>
-					<td>Check</td>
-				</tr>
-					<tr>
-					<th>Get mockups approved</th>
-					<td>Check</td>
-					<td>Check</td>
-				</tr>
-					<tr>
-					<th>Create a multi-page masterpiece</th>
-					<td>Check</td>
-					<td>Check</td>
-				</tr>
-					<tr>
-					<th>Test and make edits</th>
-					<td>Check</td>
-					<td>Check</td>
-				</tr>
-			</tbody>
-		
-		</table>
-			
-
-	</section>
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 	</body>
